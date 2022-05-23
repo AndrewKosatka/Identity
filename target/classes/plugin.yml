@@ -1,0 +1,11 @@
+name: Identity
+version: '1.0-SNAPSHOT'
+main: it.myke.identity.Identity
+api-version: 1.16
+authors: [ Drago903 ]
+description: A plug-in made by Myke, name, age and gender of an Human. This is made for Roleplays.
+softdepend: [PlaceholderAPI]
+prefix: "Identity"
+commands:
+  identity:
+    description: Get some informations about the plugin.

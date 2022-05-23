@@ -1,0 +1,68 @@
+options:
+  gender: true
+  name: true
+  age: true
+
+
+placeholders:
+  female: "♀"
+  male: "♂"
+
+
+messages:
+  no-perms: "&cNon hai i permessi per fare questo!"
+  process-finished: "&bHai completato con successo tutti i passaggi, grazie!"
+  min-age-reached: "&cNon puoi andare sotto l'età minima!"
+  max-age-reached: "&cNon puoi andare sopra l'età massima!"
+  age-confirmed: "&aHai confermato la tua età con successo!"
+  identity-reset-rejoin: "&cLa tua identità è stata resettata, rientra!"
+
+
+inventories:
+  Name:
+    inv-name: "&7Nome"
+    central-head:
+      texture: "b056bc1244fcff99344f12aba42ac23fee6ef6e3351d27d273c1572531f"
+      name: "&a&lClicca qui per inserire il nome!"
+      lore: "&7Hai gia' qualche idea?"
+      onClicked:
+        onlyName: false
+        chatMessage: "&bDigita il Chat il tuo nome e cognome distaccato!"
+        alsoSurnameIsNeededMessage: "&bDevi inserire anche il cognome staccato dal nome!"
+        titleBar:
+          enabled: true
+          title: "&b&lDigita in chat"
+          subtitle: "&7Il tuo nome."
+  Age:
+    inv-name: "&7Età"
+    options:
+      min-age: 10
+      max-age: 80
+      #Max needs to be more than min and viceversa.
+      #Min needs to be more than 0
+    add-head:
+      texture: "b056bc1244fcff99344f12aba42ac23fee6ef6e3351d27d273c1572531f"
+      name: "&a&lClicca per aggiungere &7(+1)"
+      lore: "&7Clicca per aggiungere un'anno"
+    remove-head:
+      texture: "4e4b8b8d2362c864e062301487d94d3272a6b570afbf80c2c5b148c954579d46"
+      name: "&c&lClicca per rimuovere &7(+1)"
+      lore: "&7Clicca per rimuovere un'anno"
+    central-head:
+      texture: "%playerhead%"
+      name: "%actualage%"
+      lore: "&7Questa è la tua età, cliccami per confermare."
+
+  Gender:
+    inv-name: "&7Genere"
+    female-head:
+      texture: "f6aac8c1c290be9d3bd495476aca42c68623b9cbefdd6ddbd6144855b9731c63"
+      name: "&d&lFemmina"
+      lore: "&7Seleziona il genere &dFemminile&7!"
+      message: "&dSei ora femmina!"
+    male-head:
+      texture: "e7fe6e2316ca384e0c85261b14fc066e231d6127e540dfeddb8b54d911b82831"
+      name: "&b&lMaschio"
+      lore: "&7Seleziona il genere &bMaschio&7!"
+      message: "&bSei ora maschio!"
+data:

@@ -1,0 +1,13 @@
+it\myke\identity\utils\CustomHeads.class
+it\myke\identity\inventories\InventoryManager.class
+it\myke\identity\inventories\Inventories.class
+it\myke\identity\utils\ConfigLoader.class
+it\myke\identity\papi\cmds\InfoCommands.class
+it\myke\identity\Listeners\GenderInventoryListener.class
+it\myke\identity\Listeners\NameInventoryListener.class
+it\myke\identity\Listeners\PlayerQuitListener.class
+it\myke\identity\utils\Person.class
+it\myke\identity\Listeners\AgeInventoryListener.class
+it\myke\identity\Identity.class
+it\myke\identity\papi\CustomNamesExpansion.class
+it\myke\identity\Listeners\PlayerJoinEvent.class
